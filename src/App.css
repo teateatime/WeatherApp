@@ -1,0 +1,58 @@
+body {
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-container {
+  display: inline-block;
+  background-color: rgba(3, 3, 3, 0.875);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(56, 55, 55, 0.36);
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 30px;
+  color: beige;
+}
+
+.cityName {
+  font-size: 1.5em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 105%;
+  width: 125%;
+}
+
+button {
+  font-size: 0.7em;
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 35px;
+  width: 50px;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
