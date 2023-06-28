@@ -119,7 +119,6 @@ function App() {
               </path>
             </svg></button>
           </div>
-          {loading && !error && <p>Loading...</p>}
           {error && <p>{error}</p>}
           {showWeather && (
             <div className="weather-container">
